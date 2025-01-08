@@ -1,0 +1,19 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<section id="homepage-banner">
+    <img src="{% static 'images/logo.png' %}" alt="Qurosity Logo">
+    <h2>Welcome to Qurosity!</h2>
+    <p>Your go-to club for everything quizzing at IIT Mandi.</p>
+</section>
+
+<section id="info">
+    <h3>About IIT Mandi</h3>
+    <p>Details about IIT Mandi.</p>
+    <h3>About Qurosity</h3>
+    <p>Details about Qurosity.</p>
+</section>
+{% endblock %}
